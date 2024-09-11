@@ -12,19 +12,19 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2018 - 2023</p>
+          <p className="text-sm text-designColor tracking-[4px]">2019 - 2024</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[500px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="BS in Computer Science"
-            subTitle="University of Karachi (2019 - 2022)"
+            subTitle="University of Karachi (2021 - 2024)"
             result="3.25/4"
             des="  Completed a comprehensive program focused on software development, algorithms, and data structures. Gained practical experience in building applications, databases, and web technologies."
           />
           <ResumeCard
             title="Pre-Engineering"
-            subTitle="Govt Islamia Science College (2018 - 2019)"
+            subTitle="Govt Islamia Science College (2019 - 2020)"
             result="72%"
             des="Studied foundational subjects like mathematics, physics, and chemistry, building a strong base for engineering principles. Developed problem-solving skills and analytical thinking through coursework and projects."
           />
