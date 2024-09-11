@@ -18,7 +18,7 @@ const Education = () => {
         <div className="mt-6 lgl:mt-14 w-full h-[500px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="BS in Computer Science"
-            subTitle="University of Karachi (2020 - 2023)"
+            subTitle="University of Karachi (2019 - 2022)"
             result="3.25/4"
             des="  Completed a comprehensive program focused on software development, algorithms, and data structures. Gained practical experience in building applications, databases, and web technologies."
           />
