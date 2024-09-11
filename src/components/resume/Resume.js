@@ -8,7 +8,7 @@ import Experience from "./Experience";
 const Resume = () => {
   const [educationData, setEducationData] = useState(true);
   const [skillData, setSkillData] = useState(false);
-  const [experienceData, setExperienceData] = useState(false);
+  const [experienceData, setExperienceData] = useState(true);
   const [achievementData, setAchievementData] = useState(false);
   return (
     <section id="resume" className="w-full py-10  ">
@@ -17,6 +17,21 @@ const Resume = () => {
       </div>
       <div>
         <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+          <li
+            onClick={() =>
+              setEducationData(false) &
+              setSkillData(false) &
+              setExperienceData(true) &
+              setAchievementData(false)
+            }
+            className={`${
+              experienceData
+                ? "border-transparent border-b-designColor " // Only bottom border, no other borders
+                : "border-transparent"
+            } resumeLi`}
+          >
+            Experience
+          </li>
           <li
             onClick={() =>
               setEducationData(false) &
@@ -48,21 +63,6 @@ const Resume = () => {
             Education
           </li>
 
-          <li
-            onClick={() =>
-              setEducationData(false) &
-              setSkillData(false) &
-              setExperienceData(true) &
-              setAchievementData(false)
-            }
-            className={`${
-              experienceData
-                ? "border-transparent border-b-designColor " // Only bottom border, no other borders
-                : "border-transparent"
-            } resumeLi`}
-          >
-            Experience
-          </li>
           {/* <li
             onClick={() =>
               setEducationData(false) &
