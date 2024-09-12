@@ -5,14 +5,44 @@ import video from "../../assets/videos/vancon.mp4";
 
 export const VideoPlayer = () => {
   //***************** */ For Local File  *************************
-  //   return (
-  //     <div>
-  //       <video width="500" controls>
-  //         <source src={video} type="video/mp4" />
-  //         Your browser does not support the video tag.
-  //       </video>
-  //     </div>
-  //   );
+  return (
+    <div
+      style={{
+        position: "relative",
+        width: "20%", // Make the container responsive
+        paddingTop: "40%", // 16:9 Aspect Ratio (height / width * 100%)
+        overflow: "hidden",
+        marginTop: "2%",
+      }}
+    >
+      <video
+        style={{
+          position: "absolute",
+          //   top: "10%",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          objectFit: "contain", // Fit the video inside the container
+        }}
+        controls
+      >
+        <source src={video} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  );
+  return (
+    <div className="flex items-center justify-center overflow-hidden">
+      <video
+        className="w-[calc(100%_-_300px)] h-[calc(100%_-_300px)] object-contain"
+        controls
+      >
+        <source src={video} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  );
   //***************** */ For Youtube  *************************
   //   const videoId = "hu1FI8Ej0MM";
   //   return (

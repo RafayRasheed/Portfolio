@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 
 const Skills = () => {
   const skillArray = [
-    { name: "React Native", rate: "99%" },
+    { name: "React Native", rate: "95%" },
     { name: "NodeJs", rate: "85%" },
     { name: "NextJS", rate: "80%" },
-    { name: "ReactJS", rate: "85%" },
+    { name: "ReactJS", rate: "80%" },
     { name: "MongoDB", rate: "75%" },
     { name: "Python", rate: "90%" },
     { name: "Java", rate: "70%" },
@@ -96,7 +96,7 @@ const Skills = () => {
       <div className="w-full lgl:w/2">
         <div className="py-10 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px] uppercase">
-            Features
+            Expertise
           </p>
           <h2 className="text-3xl md:text-4xl font-bold">Development Skill</h2>
         </div>

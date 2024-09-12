@@ -3,6 +3,7 @@ import Title from "../layouts/Title";
 import { projectOne, projectTwo, projectThree } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 import { VideoPlayer } from "./VideoPlayer";
+import { PopupExample } from "./Popup";
 
 const Projects = () => {
   return (
@@ -51,7 +52,7 @@ const Projects = () => {
           src={projectTwo}
         />
       </div>
-      <VideoPlayer />
+      <PopupExample />
     </section>
   );
 };
