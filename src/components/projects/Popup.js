@@ -4,7 +4,7 @@ import Title from "../layouts/Title";
 import { motion } from "framer-motion";
 
 export const PopupExample = () => {
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
   const togglePopup = () => {
     setIsVisible(!isVisible);
   };
