@@ -1,16 +1,18 @@
 // src/VideoPlayer.js
 import React, { useState } from "react";
 // import video from "/videos/vancon.mp4";
-import video from "../../assets/videos/vancon.mp4";
 
-export const VideoPlayer = () => {
+export const VideoPlayer = ({ video }) => {
   //***************** */ For Local File  *************************
+  if (!video) {
+    return null;
+  }
   return (
     <div
       style={{
         position: "relative",
-        width: "20%", // Make the container responsive
-        paddingTop: "40%", // 16:9 Aspect Ratio (height / width * 100%)
+        width: "30%", // Make the container responsive
+        paddingTop: "37%", // 16:9 Aspect Ratio (height / width * 100%)
         overflow: "hidden",
         marginTop: "2%",
       }}
