@@ -56,6 +56,7 @@ export const PopupExample = ({ item, setItem, ProjectLinks }) => {
               <h1 className="text-lg font-bold mb-4  text-designColor">
                 Links
               </h1>
+              <div style={{ height: "10px" }} />
               <ProjectLinks it={item} />
             </div>
             <VideoPlayer video={video} />
