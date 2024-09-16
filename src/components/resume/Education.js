@@ -19,7 +19,7 @@ const Education = () => {
           <ResumeCard
             title="BS in Computer Science"
             subTitle="University of Karachi (2020 - 2023)"
-            result="3.25/4"
+            result="3.2/4"
             des="  Completed a comprehensive program focused on software development, algorithms, and data structures. Gained practical experience in building applications, databases, and web technologies."
           />
           <ResumeCard
