@@ -8,7 +8,7 @@ export const VideoPlayer = ({ video }) => {
     return null;
   }
   return (
-    <div className="flex justify-center mt-2">
+    <div className="flex justify-center mt-2 mb-6">
       <div
         style={{
           position: "relative",
