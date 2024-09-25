@@ -39,7 +39,7 @@ function App() {
       </style>
       <Navbar />
 
-      <div className="max-w-screen-xl mx-auto">
+      <div className="max-w-screen-xl mx-auto px-4">
         <Banner />
         <Features />
         <Projects />

@@ -11,16 +11,12 @@ const ContactLeft = () => {
         src={contactImg}
         alt="contactImg"
       />
-      <div className="flex flex-row gap-3 justify-between">
-        <div className="flex flex-col gap-3  space-y-2">
+      <div className="flex flex-col lgl:flex-row gap-3 justify-between">
+        <div className="flex flex-col gap-3 space-y-2">
           <h3 className="text-3xl font-bold text-white">Abdul Rafay</h3>
           <p className="text-lg font-normal text-gray-400">
             Full Stack Developer
           </p>
-          {/* <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
-        </p> */}
           <p className="text-base text-gray-400 flex items-center gap-2">
             Phone: <span className="text-lightText">+923308246728</span>
           </p>
@@ -29,7 +25,11 @@ const ContactLeft = () => {
             <span className="text-lightText">rafayrasheed777.rr@gmail.com</span>
           </p>
         </div>
-        <FindMe />
+        <div className="mt-4 lgl:mt-0">
+          {" "}
+          {/* Add margin on top for mobile view */}
+          <FindMe />
+        </div>
       </div>
     </div>
   );

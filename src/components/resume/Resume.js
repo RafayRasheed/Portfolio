@@ -16,7 +16,7 @@ const Resume = () => {
         <Title title="2+ YEARS OF EXPERIENCE" des="My Resume" />
       </div>
       <div>
-        <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+        <ul className="w-full grid grid-cols-3 gap">
           <li
             onClick={() =>
               setEducationData(false) &
@@ -26,9 +26,9 @@ const Resume = () => {
             }
             className={`${
               experienceData
-                ? "border-transparent border-b-designColor " // Only bottom border, no other borders
+                ? "border-transparent border-b-designColor" // Only bottom border, no other borders
                 : "border-transparent"
-            } resumeLi`}
+            } resumeLi text-center p-3 text-sm md:text-lg lg:text-xl transition-all duration-200`}
           >
             Experience
           </li>
@@ -41,9 +41,9 @@ const Resume = () => {
             }
             className={`${
               skillData
-                ? "border-transparent border-b-designColor " // Only bottom border, no other borders
+                ? "border-transparent border-b-designColor" // Only bottom border, no other borders
                 : "border-transparent"
-            } resumeLi`}
+            } resumeLi text-center p-3 text-sm md:text-lg lg:text-xl transition-all duration-200`}
           >
             Professional Skills
           </li>
@@ -56,9 +56,9 @@ const Resume = () => {
             }
             className={`${
               educationData
-                ? "border-transparent border-b-designColor " // Only bottom border, no other borders
+                ? "border-transparent border-b-designColor" // Only bottom border, no other borders
                 : "border-transparent"
-            } resumeLi`}
+            } resumeLi text-center p-3 text-sm md:text-lg lg:text-xl transition-all duration-200`}
           >
             Education
           </li>

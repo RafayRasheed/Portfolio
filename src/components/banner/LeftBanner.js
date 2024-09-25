@@ -20,12 +20,14 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5 space-y-8">
         <div className="flex flex-row gap-5 justify-between">
           <div className="space-y-4">
-            <h4 className="text-lg font-normal">WELCOME TO MY WORLD</h4>
-            <h1 className="text-5xl font-bold text-white">
+            <h4 className="text-sm sm:text-base md:text-lg lg:text-xl font-normal">
+              WELCOME TO MY WORLD
+            </h4>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white">
               Hi, I'm{" "}
               <span className="text-designColor capitalize">Abdul Rafay</span>
             </h1>
-            <h2 className="text-3xl font-bold text-white">
+            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white">
               a <span>{text}</span>
               <Cursor
                 cursorBlinking="false"
@@ -34,7 +36,7 @@ const LeftBanner = () => {
               />
             </h2>
           </div>
-          <div className="w-36 h-36 rounded-full border-2 border-white overflow-hidden">
+          <div className="w-24 h-24 md:w-36 md:h-36 rounded-full border-2 border-white overflow-hidden flex items-center justify-center">
             <img
               src={myImage}
               alt="Profile"
@@ -43,7 +45,7 @@ const LeftBanner = () => {
           </div>
         </div>
 
-        <p className="text-base font-bodyFont leading-6 tracking-wide  text-justify">
+        <p className="text-sm sm:text-base md:text-lg lg:text-xl font-bodyFont leading-5 sm:leading-6 md:leading-7 lg:leading-8 tracking-wide text-justify">
           As a mobile developer with a focus on React Native, I am eager to
           learn and grow my skills in JavaScript and mobile development. With 2
           years of experience working with React Native, as well as experience
