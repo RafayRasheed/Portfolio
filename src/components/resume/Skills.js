@@ -100,7 +100,9 @@ const Skills = () => {
           <p className="text-sm text-designColor tracking-[4px] uppercase">
             Expertise
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold">Development Skill</h2>
+          <h2 className="text-2xl  md:text-4xl  font-bold">
+            Development Skill
+          </h2>
         </div>
         {/* <div className="h-12"></div> */}
         <div className="flex flex-col gap-6">

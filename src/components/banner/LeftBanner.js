@@ -20,14 +20,14 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5 space-y-8">
         <div className="flex flex-row gap-5 justify-between">
           <div className="space-y-4">
-            <h4 className="text-base sm:text-lg md:text-xl lg:text-2xl font-normal">
+            <h4 className="text-xs sm:text-sm md:text-base lg:text-lg font-normal">
               WELCOME TO MY WORLD
             </h4>
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white">
+            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white">
               Hi, I'm{" "}
               <span className="text-designColor capitalize">Abdul Rafay</span>
             </h1>
-            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-white">
+            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-white">
               a <span>{text}</span>
               <Cursor
                 cursorBlinking="false"
@@ -36,6 +36,7 @@ const LeftBanner = () => {
               />
             </h2>
           </div>
+
           <div className="w-24 h-24 md:w-36 md:h-36 rounded-full border-2 border-white overflow-hidden flex items-center justify-center">
             <img
               src={myImage}
