@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.cbff5ca2.css",
-    "main.js": "/Portfolio/static/js/main.d6111336.js",
+    "main.css": "/Portfolio/static/css/main.4815c2f4.css",
+    "main.js": "/Portfolio/static/js/main.628a729d.js",
     "static/media/vancon.mp4": "/Portfolio/static/media/vancon.3d26905f39491783b1ff.mp4",
     "static/media/vanconCaptain.mp4": "/Portfolio/static/media/vanconCaptain.105f289b823445d2c8b3.mp4",
     "static/media/contactImg.png": "/Portfolio/static/media/contactImg.0bba2be6565cda72b96e.png",
@@ -20,11 +20,11 @@
     "static/media/foodApp.png": "/Portfolio/static/media/foodApp.5e091b9f401ab452208a.png",
     "static/media/chatapp.png": "/Portfolio/static/media/chatapp.0bdb41ed216063d04511.png",
     "index.html": "/Portfolio/index.html",
-    "main.cbff5ca2.css.map": "/Portfolio/static/css/main.cbff5ca2.css.map",
-    "main.d6111336.js.map": "/Portfolio/static/js/main.d6111336.js.map"
+    "main.4815c2f4.css.map": "/Portfolio/static/css/main.4815c2f4.css.map",
+    "main.628a729d.js.map": "/Portfolio/static/js/main.628a729d.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbff5ca2.css",
-    "static/js/main.d6111336.js"
+    "static/css/main.4815c2f4.css",
+    "static/js/main.628a729d.js"
   ]
 }
