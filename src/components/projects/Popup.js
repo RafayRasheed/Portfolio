@@ -28,20 +28,18 @@ export const PopupExample = ({ item, setItem, ProjectLinks }) => {
         animate={{ opacity: 1, transition: { duration: 0.3 } }}
         className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 overflow-auto"
       >
-        <div className="bg-bodyColor p-0 md:p-2 pt-6 pb-6 rounded-lg shadow-lg  h-[calc(100%_-_130px)] mx-4 md:mx-8 my-8 relative overflow-auto">
+        <div className="bg-bodyColor p-0 md:p-2 pt-6 pb-6 rounded-2xl shadow-lg  h-[calc(100%_-_130px)] mx-4 md:mx-8 my-8 relative overflow-auto">
           <button
             onClick={togglePopup}
             className="fixed top-6   mx-2 md:mx-6 right-2 bg-red-500 h-7 w-7 rounded-full flex items-center justify-center z-10"
           >
             <h1 className="text-sm md:text-lg font-bold text-white">X</h1>
           </button>
-          <div className="flex justify-center items-center text-center">
-            <Spacer paddingT={100} />
+          <div className="flex justify-center pt-0 sm:pt-0 md:pt-4 lg:pt-6   items-center text-center">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold capitalize">
               {title}
             </h1>
           </div>
-          <Spacer paddingT={100} />
 
           <div className="flex flex-row gap-0 justify-between">
             <div
