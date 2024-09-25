@@ -8,30 +8,30 @@ export const VideoPlayer = ({ video }) => {
     return null;
   }
   return (
-    <div
-      style={{
-        position: "relative",
-        width: "30%", // Make the container responsive
-        paddingTop: "37%", // 16:9 Aspect Ratio (height / width * 100%)
-        overflow: "hidden",
-        marginTop: "2%",
-      }}
-    >
-      <video
+    <div className="flex justify-center mt-2">
+      <div
         style={{
-          position: "absolute",
-          //   top: "10%",
-          top: 0,
-          left: 0,
+          position: "relative",
           width: "100%",
-          height: "100%",
-          objectFit: "contain", // Fit the video inside the container
+          paddingTop: "37%", // 16:9 Aspect Ratio (height / width * 100%)
+          overflow: "hidden",
         }}
-        controls
       >
-        <source src={video} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+        <video
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            objectFit: "contain", // Fit the video inside the container
+          }}
+          controls
+        >
+          <source src={video} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </div>
   );
   return (

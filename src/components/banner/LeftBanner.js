@@ -7,7 +7,7 @@ const LeftBanner = () => {
   const [text] = useTypewriter({
     words: [
       "Professional Coder.",
-      "Mobile Application Developer",
+      "Mobile Apps Developer",
       "Full Stack Developer.",
     ],
     loop: true,
@@ -20,14 +20,14 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5 space-y-8">
         <div className="flex flex-row gap-5 justify-between">
           <div className="space-y-4">
-            <h4 className="text-sm sm:text-base md:text-lg lg:text-xl font-normal">
+            <h4 className="text-base sm:text-lg md:text-xl lg:text-2xl font-normal">
               WELCOME TO MY WORLD
             </h4>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white">
               Hi, I'm{" "}
               <span className="text-designColor capitalize">Abdul Rafay</span>
             </h1>
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white">
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-white">
               a <span>{text}</span>
               <Cursor
                 cursorBlinking="false"

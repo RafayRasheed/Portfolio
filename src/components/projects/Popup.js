@@ -10,6 +10,13 @@ export const PopupExample = ({ item, setItem, ProjectLinks }) => {
   if (!item) {
     return null;
   }
+  const Spacer = ({ paddingT }) => {
+    const heightClass = `h-[${paddingT / 2}px] md:h-[${paddingT}px] lg:h-[${
+      paddingT * 1.5
+    }px]`;
+
+    return <div className={heightClass} />;
+  };
   const { title, des, longDes, video, link, androidLink, iosLink, gitLink } =
     item;
   return (
@@ -21,64 +28,62 @@ export const PopupExample = ({ item, setItem, ProjectLinks }) => {
         animate={{ opacity: 1, transition: { duration: 0.3 } }}
         className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 overflow-auto"
       >
-        <div className="bg-bodyColor p-6 rounded-lg shadow-lg w-[calc(100%_-_300px)] h-[calc(100%_-_200px)]  mx-4 my-8 relative overflow-auto">
+        <div className="bg-bodyColor p-0 md:p-2 pt-6 pb-6 rounded-lg shadow-lg  h-[calc(100%_-_130px)] mx-4 md:mx-8 my-8 relative overflow-auto">
+          <button
+            onClick={togglePopup}
+            className="fixed top-6   mx-2 md:mx-6 right-2 bg-red-500 h-7 w-7 rounded-full flex items-center justify-center z-10"
+          >
+            <h1 className="text-sm md:text-lg font-bold text-white">X</h1>
+          </button>
           <div className="flex justify-center items-center text-center">
-            <div style={{ height: "80px" }} />
-
-            <h1 className="text-4xl md:text-5xl  font-bold capitalize">
+            <Spacer paddingT={100} />
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold capitalize">
               {title}
             </h1>
           </div>
-          <div style={{ height: "10px" }} />
+          <Spacer paddingT={100} />
 
-          <div className="flex flex-row gap-5 justify-between">
+          <div className="flex flex-row gap-0 justify-between">
             <div
+              className="px-4 md:px-6"
               style={{
-                // width: "60%",
-                paddingLeft: "20px",
-                paddingBlockStart: "10px",
-                flex: 0.95,
+                flex: 1,
               }}
             >
               <div style={{ height: "40px" }} />
-              <h1 className="text-lg font-bold mb-4 text-designColor ">
+              <h1 className="text-base md:text-lg lg:text-xl font-bold mb-4 text-designColor">
                 Overview
               </h1>
-
-              <h2 className="mb-2">{des}</h2>
+              <h2 className="text-sm md:text-base lg:text-lg mb-2">{des}</h2>
               <div style={{ height: "40px" }} />
-              <h1 className="text-lg font-bold mb-4  text-designColor">
+              <h1 className="text-base md:text-lg lg:text-xl font-bold mb-4 text-designColor">
                 Description
               </h1>
-
-              <h2 className="mb-2">{longDes}</h2>
+              <h2 className="text-sm md:text-base lg:text-lg mb-2">
+                {longDes}
+              </h2>
               <div style={{ height: "40px" }} />
-              <h1 className="text-lg font-bold mb-4  text-designColor">
+              <h1 className="text-base md:text-lg lg:text-xl font-bold mb-4 text-designColor">
                 Links
               </h1>
               <div style={{ height: "10px" }} />
               <ProjectLinks it={item} />
+              {video && (
+                <>
+                  <div style={{ height: "40px" }} />
+                  <h1 className="text-base md:text-lg lg:text-xl font-bold mb-4 text-designColor">
+                    Video
+                  </h1>
+                  <div style={{ height: "10px" }} />
+                  <VideoPlayer video={video} />
+                </>
+              )}
             </div>
-            <VideoPlayer video={video} />
           </div>
-
           {/* Close button with cross icon in the top right */}
-          <button
-            onClick={togglePopup}
-            style={{
-              position: "absolute",
-              top: 10,
-              right: 10,
-              backgroundColor: "red",
-              height: 30,
-              width: 30,
-              borderRadius: "100%",
-            }}
-            //   className="absolute  top-2 right-2 p-2 rounded-full bg-red-500 text-white"
-          >
-            <h1 className="text-lg font-bold">X</h1>
-          </button>
+          {/* Close button with cross icon in the top right */}
         </div>
+        <div style={{ height: "10px" }} />
       </motion.div>
     </div>
   );
