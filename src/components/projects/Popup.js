@@ -38,8 +38,8 @@ export const PopupExample = ({ item, setItem, ProjectLinks }) => {
           <div
             className="overflow-auto h-full"
             style={{
-              scrollbarWidth: "none" /* For Firefox */,
-              msOverflowStyle: "none" /* For IE and Edge */,
+              scrollbarWidth: "none",
+              msOverflowStyle: "none",
             }}
           >
             <div className="flex justify-center pt-0 sm:pt-0 md:pt-4 lg:pt-6   items-center text-center">
