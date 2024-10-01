@@ -11,6 +11,7 @@ import { SiIos } from "react-icons/si";
 import vanconCap from "../../assets/videos/vanconCaptain.mp4";
 import vanconCus from "../../assets/videos/vancon.mp4";
 import toemanCus from "../../assets/videos/towman.mp4";
+import bigEatSmall from "../../assets/videos/bigEatSmall.mp4";
 const ProjectData = [
   {
     title: "MRides",
@@ -94,7 +95,7 @@ const ProjectData = [
     des: "Big Eat Small is a React Native game that enhances the classic Tic Tac Toe experience, featuring a pro version where players use 9 pieces of varying sizes, with larger pieces able to be placed on smaller ones, and real-time updates via Firebase.",
     longDes:
       "Big Eat Small is a strategic game built with React Native and Firebase that offers a sophisticated twist on the classic Tic Tac Toe. In this pro version, players have 9 pieces of three different sizes—small, medium, and large. The unique gameplay mechanic allows larger pieces to be placed on top of smaller ones, adding an extra layer of strategy and depth. Firebase enables real-time updates, ensuring that moves and game states are synchronized instantly between players. With its engaging gameplay and innovative mechanics, Big Eat Small provides a fresh and challenging experience for fans of classic board games.",
-    video: null,
+    video: bigEatSmall,
     link: null,
     androidLink: null,
     iosLink: null,
