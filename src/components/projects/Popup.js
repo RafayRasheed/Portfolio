@@ -58,7 +58,7 @@ export const PopupExample = ({ item, setItem, ProjectLinks }) => {
                 <h1 className="text-base mt-5 mb-2 md:mt-8 md:mb-4 md:text-lg lg:text-xl font-bold text-designColor">
                   Overview
                 </h1>
-                <h2 className="text-sm md:text-baselg:text-lg mb-2">{des}</h2>
+                <h2 className="text-sm md:text-base lg:text-lg mb-2">{des}</h2>
                 <h1 className="text-base mt-5 mb-2 md:mt-8 md:mb-4  md:text-lg lg:text-xl font-bold text-designColor">
                   Description
                 </h1>
