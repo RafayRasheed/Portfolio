@@ -49,7 +49,7 @@ const LeftBanner = () => {
         <p className="text-sm sm:text-base md:text-lg lg:text-xl font-bodyFont leading-5 sm:leading-6 md:leading-7 lg:leading-8 tracking-wide text-justify">
           As a full-stack developer, I am passionate about building scalable,
           user-friendly applications and continuously expanding my skill set.
-          With 2 years of hands-on experience across both frontend and backend
+          With over 2 years of hands-on experience across both frontend and backend
           technologies—including JavaScript, Python, Java, Express.js, Node.js,
           and MongoDB—I’ve contributed to a variety of projects involving
           mobile and web development. I’m a fast learner who thrives in dynamic 
