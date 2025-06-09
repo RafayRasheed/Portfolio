@@ -47,13 +47,14 @@ const LeftBanner = () => {
         </div>
 
         <p className="text-sm sm:text-base md:text-lg lg:text-xl font-bodyFont leading-5 sm:leading-6 md:leading-7 lg:leading-8 tracking-wide text-justify">
-          As a mobile developer with a focus on React Native, I am eager to
-          learn and grow my skills in JavaScript and mobile development. With 2
-          years of experience working with React Native, as well as experience
-          with Python, Java, Express.js, Node.js, and MongoDB, I am excited to
-          work on projects that allow me to apply my knowledge and gain further
-          experience in these areas. I am a fast learner and always seeking new
-          opportunities to expand my expertise in full-stack development.
+          As a full-stack developer, I am passionate about building scalable,
+          user-friendly applications and continuously expanding my skill set.
+          With 2 years of hands-on experience across both frontend and backend
+          technologies—including JavaScript, Python, Java, Express.js, Node.js,
+          and MongoDB—I’ve contributed to a variety of projects involving
+          mobile and web development. I’m a fast learner who thrives in dynamic 
+          environments, and I’m always looking for opportunities togrow, 
+          collaborate, and take on new technical challenges across the stack.
         </p>
       </div>
       {/* Media */}
