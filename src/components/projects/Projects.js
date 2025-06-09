@@ -14,12 +14,23 @@ import toemanCus from "../../assets/videos/towman.mp4";
 import bigEatSmall from "../../assets/videos/bigEatSmall.mp4";
 const ProjectData = [
   {
+    title: "Wurth Sales App",
+    des: "Wurth Sales: Parcel/Ride Tracking, Socket.io, eSign & Document Workflow",
+    longDes:
+      "Wurth Sales App is a mobile application built with React Native and TypeScript for sales users. It allows users to track parcels and rides in real-time, view rider and delivery details, and communicate using Socket.IO for live updates. The app also includes features for handling documents, viewing parts information, and collecting customer e-signatures for deliveries or sales documents. It is designed to run smoothly on both iOS and Android devices.",
+    video: null,
+    link: null,
+    androidLink: null,
+    iosLink: null,
+    gitLink: null,
+    image: "wurth.png",
+  },
+  {
     title: "MRides",
     des: "MRides is a mobile app built on React Native with Redux, combining real-time ride-hailing and food delivery, complete with a cart system for seamless food orders.",
     longDes:
       "MRides is an all-in-one mobile application that merges ride-hailing and food delivery services. Developed using React Native with Redux for efficient state management, the app provides users with real-time ride-hailing options and a smooth food ordering experience, including a fully integrated cart system. The app uses various APIs to connect with external services, ensuring seamless communication and a responsive user experience. Available for both Android and iOS, MRides offers a unified platform for transportation and food delivery.",
     video: null,
-
     link: null,
     androidLink: "https://play.google.com/store/apps/details?id=com.mbe.mrides",
     iosLink: "https://play.google.com/store/apps/details?id=com.mbe.mrides",
@@ -37,6 +48,19 @@ const ProjectData = [
     iosLink: "https://apps.apple.com/in/app/towmen/id6502643578s",
     gitLink: null,
     image: "towmen.png",
+  },
+  
+  {
+    title: "Big Eat Small",
+    des: "Big Eat Small is a React Native game that enhances the classic Tic Tac Toe experience, featuring a pro version where players use 9 pieces of varying sizes, with larger pieces able to be placed on smaller ones, and real-time updates via Firebase.",
+    longDes:
+      "Big Eat Small is a strategic game built with React Native and Firebase that offers a sophisticated twist on the classic Tic Tac Toe. In this pro version, players have 9 pieces of three different sizes—small, medium, and large. The unique gameplay mechanic allows larger pieces to be placed on top of smaller ones, adding an extra layer of strategy and depth. Firebase enables real-time updates, ensuring that moves and game states are synchronized instantly between players. With its engaging gameplay and innovative mechanics, Big Eat Small provides a fresh and challenging experience for fans of classic board games.",
+    video: bigEatSmall,
+    link: null,
+    androidLink: null,
+    iosLink: null,
+    gitLink: "https://github.com/RafayRasheed/Big_Eat_Small_Latest",
+    image: "bigeatsmall.png",
   },
   {
     title: "VanCon",
@@ -66,54 +90,7 @@ const ProjectData = [
     image: "VanConCaptain.png",
   },
 
-  {
-    title: "FoodApp",
-    des: "FoodApp allows users to order food, search by restaurant, item, or category, and save favorite restaurants, built with React Native and Firebase.",
-    longDes:
-      "FoodApp is a mobile application built on React Native, using Firebase to provide seamless food ordering and search functionality. Users can easily browse by restaurant, specific food items, or categories such as cuisine type. The app also offers the ability to save favorite restaurants for quick access to preferred dining options. Firebase ensures real-time updates, secure data handling, and a smooth ordering experience, making FoodApp a convenient platform for exploring and enjoying meals across various restaurants. Available for both Android and iOS, it delivers a responsive and intuitive user interface.",
-    video: null,
-    link: null,
-    androidLink: null,
-    iosLink: null,
-    gitLink: "https://github.com/RafayRasheed/foodApp",
-    image: "foodApp.png",
-  },
-  {
-    title: "FoodApp Chef",
-    des: "FoodApp Chef is the restaurant management interface of FoodApp, enabling chefs and restaurant staff to manage menus, orders, and specials dynamically.",
-    longDes:
-      "FoodAppChef is the backend application for restaurants using FoodApp, designed for efficient menu and order management. Built with React Native and integrated with Firebase, this platform allows chefs and restaurant staff to update dynamic menus, manage daily specials, and handle incoming orders in real-time. The app provides tools for modifying item availability, adjusting prices, and adding or removing menu items, ensuring that the restaurant's offerings are always current and accurately represented. With real-time updates and secure data handling via Firebase, FoodAppChef streamlines restaurant operations and enhances the overall dining experience for customers.",
-    video: null,
-    link: null,
-    androidLink: null,
-    iosLink: null,
-    gitLink: "https://github.com/RafayRasheed/FoodAppChef",
-    image: "foodAppChef.png",
-  },
-  {
-    title: "Big Eat Small",
-    des: "Big Eat Small is a React Native game that enhances the classic Tic Tac Toe experience, featuring a pro version where players use 9 pieces of varying sizes, with larger pieces able to be placed on smaller ones, and real-time updates via Firebase.",
-    longDes:
-      "Big Eat Small is a strategic game built with React Native and Firebase that offers a sophisticated twist on the classic Tic Tac Toe. In this pro version, players have 9 pieces of three different sizes—small, medium, and large. The unique gameplay mechanic allows larger pieces to be placed on top of smaller ones, adding an extra layer of strategy and depth. Firebase enables real-time updates, ensuring that moves and game states are synchronized instantly between players. With its engaging gameplay and innovative mechanics, Big Eat Small provides a fresh and challenging experience for fans of classic board games.",
-    video: bigEatSmall,
-    link: null,
-    androidLink: null,
-    iosLink: null,
-    gitLink: "https://github.com/RafayRasheed/Big_Eat_Small_Latest",
-    image: "bigeatsmall.png",
-  },
-  {
-    title: "ChatApp",
-    des: "ChatApp is an Android-only chat application using Firebase Realtime Database, with features including group creation for seamless communication.",
-    longDes:
-      "ChatApp is a dedicated Android chat application built using Firebase Realtime Database to ensure instant and reliable message delivery. Users can chat one-on-one or create groups for collaborative conversations, making it perfect for both personal and team communication. The app offers a streamlined interface with real-time updates, ensuring that messages and group activities are synchronized instantly across all participants.",
-    video: null,
-    link: null,
-    androidLink: "",
-    iosLink: null,
-    gitLink: "https://github.com/RafayRasheed/Chat_Now",
-    image: "chatapp.png",
-  },
+
 ];
 const Projects = () => {
   const [selectedItem, setSelectedItem] = useState(null);

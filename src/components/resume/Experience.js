@@ -17,9 +17,15 @@ const Experience = () => {
           <h2 className="text-2xl  md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-14 w-full h-[500px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+           <ResumeCard
+            title="Full-Stack Developer"
+            subTitle="Devsynth innovations (April 2025 - Present)"
+            result="Karachi"
+            des="Developing and maintaining full-stack web and mobile applications using modern technologies. Collaborating with teams to design, implement, and scale high-performance frontend and backend features, APIs, and databases for robust, user-friendly applications."
+          />
           <ResumeCard
             title="React Native Developer"
-            subTitle="MBE Canada (April 2023 - Present)"
+            subTitle="MBE Canada (April 2023 - March 2025)"
             result="Karachi"
             des="Developing and maintaining cross-platform mobile applications using React Native. Collaborating with teams to design and implement scalable, high-performance app features and enhancements."
           />

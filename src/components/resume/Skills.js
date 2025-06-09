@@ -4,11 +4,10 @@ import { motion } from "framer-motion";
 const Skills = () => {
   const skillArray = [
     { name: "React Native", rate: "95%" },
+    { name: "TypeScript", rate: "90%" },
     { name: "NodeJs", rate: "85%" },
-    { name: "NextJS", rate: "80%" },
     { name: "ReactJS", rate: "80%" },
-    { name: "Javascript", rate: "90%" },
-
+    { name: "Javascript", rate: "95%" },
     { name: "MongoDB", rate: "75%" },
     { name: "Python", rate: "90%" },
     { name: "Java", rate: "70%" },
