@@ -13,18 +13,7 @@ import vanconCus from "../../assets/videos/vancon.mp4";
 import toemanCus from "../../assets/videos/towman.mp4";
 import bigEatSmall from "../../assets/videos/bigEatSmall.mp4";
 const ProjectData = [
-  {
-    title: "Wurth Sales App",
-    des: "Wurth Sales: Parcel/Ride Tracking, Socket.io, eSign & Document Workflow",
-    longDes:
-      "Wurth Sales App is a mobile application built with React Native and TypeScript for sales users. It allows users to track parcels and rides in real-time, view rider and delivery details, and communicate using Socket.IO for live updates. The app also includes features for handling documents, viewing parts information, and collecting customer e-signatures for deliveries or sales documents. It is designed to run smoothly on both iOS and Android devices.",
-    video: null,
-    link: null,
-    androidLink: null,
-    iosLink: null,
-    gitLink: null,
-    image: "wurth.png",
-  },
+
   {
     title: "MRides",
     des: "MRides is a mobile app built on React Native with Redux, combining real-time ride-hailing and food delivery, complete with a cart system for seamless food orders.",
@@ -36,6 +25,18 @@ const ProjectData = [
     iosLink: "https://play.google.com/store/apps/details?id=com.mbe.mrides",
     gitLink: null,
     image: "mride.png",
+  },
+    {
+    title: "Wurth Sales App",
+    des: "Wurth Sales: Parcel/Ride Tracking, Socket.io, eSign & Document Workflow",
+    longDes:
+      "Wurth Sales App is a mobile application built with React Native and TypeScript for sales users. It allows users to track parcels and rides in real-time, view rider and delivery details, and communicate using Socket.IO for live updates. The app also includes features for handling documents, viewing parts information, and collecting customer e-signatures for deliveries or sales documents. It is designed to run smoothly on both iOS and Android devices.",
+    video: null,
+    link: null,
+    androidLink: null,
+    iosLink: null,
+    gitLink: null,
+    image: "wurth.png",
   },
   {
     title: "TowMan",
